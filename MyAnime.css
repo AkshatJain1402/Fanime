@@ -159,8 +159,9 @@ body {
 }
 
 #card_button1 {
-    margin-top: 7px;
-    margin-bottom: -15px;
+    margin-top: 3px;
+    height: 38px;
+    padding-bottom: 0px;
 }
 
 #card_button3 {
@@ -233,10 +234,11 @@ body {
         width: auto; */
 
         .card-body{
-            height: 200px;
+            height: 180px;
+            background-color: rgba(86, 95, 95, 0.733);
         }
         #card_img{
-            height: 200px;
+            height: 180px;
         }
 }
 
