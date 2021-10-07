@@ -1,0 +1,207 @@
+#stream-box {
+    background-color: rgb(37, 37, 37);
+}
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc);
+    background-repeat: repeat;
+}
+
+.navbar {
+    position: fixed;
+}
+
+
+/* header {
+    position: absolute;
+    top: 40;
+    z-index: 3;
+} */
+
+#menu-li {
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+.card-div {
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    float: left;
+    height: 480px
+}
+
+.card-div1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    flex-direction: column;
+    float: left;
+}
+
+.card-div2 {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    flex-direction: column;
+    float: left;
+}
+
+.card-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+#div-carc {
+    width: 75%;
+    height: 1300px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#mdiv{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.sub-div {
+    display: flex;
+    /* flex-direction: column;  */
+}
+
+.sub-div2 {
+    left: 0%;
+    margin-top: 20px;
+}
+
+#card4 {
+    margin-left: 0px;
+}
+
+#card_img {
+    height: 231px;
+}
+
+#card_img2 {
+    height: 231px;
+}
+
+#header{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc;)
+}
+
+.alert {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#narutoalert {
+    width: 7%;
+    height: 40px;
+    margin-left: 70px;
+    display: flex;
+    margin-top: 120px;
+}
+
+#narutoalert2 {
+    height: 40px;
+    margin-left: px;
+    margin-top: 0px;
+}
+
+#card_button {
+    margin-top: 55px;
+}
+
+#card_button1 {
+    margin-top: 15px;
+}
+
+#card_button3 {
+    margin-top: 5px;
+}
+
+#card4-title {
+    font-weight: 550;
+}
+
+.list-div {
+    display: flex;
+    flex-direction: column;
+    height: 500PX;
+    border-style: ridge;
+    width: max-content;
+    margin-left: 30px;
+    border-color: aqua;
+}
+#alert-list{
+    font-weight: 400;
+    font-size:35px;
+    font: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 3ch;
+    padding-bottom: 0%;
+    padding-top: 0% ;
+    background:linear-gradient(15deg, rgb(36, 216, 60) 35% ,blue );
+}
+#list{
+    border-style: ridge ;
+    border-color: blanchedalmond;
+    margin-left: 1%;
+    margin-top: 1px;
+    margin-right: 25px;
+}
+.list-item{
+    margin-top: 10px;
+    color: antiquewhite;}
+.list-content{
+    font-size: large;
+    font-style: oblique;
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+#navbar1{
+    background:linear-gradient(45deg, rgb(15, 216, 15) 30%,blue);
+}
+/* @media only screen and 
+    (max-width: 778px){
+         #narutoalert2{width: 55%;}
+        .card-div{width: 80%;}
+        .sub-div{flex-direction: column ;
+        width: auto;
+        }
+
+    } */
+
+@media only screen and (max-width: 1080px) {
+    #narutoalert2 {
+        width: 260px;
+    }
+    .sub-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-div1 {
+        margin-left: 10px;
+        height: 37rem;
+    }
+    .card-div2 {
+        margin-left: 10px;
+        height: 37rem;
+    }
+    body {
+        background-size: cover;
+        background-size: 768px 1024px;
+        background-repeat: repeat;
+    }
+    .div-carc {
+        flex-direction: column;
+    }
+}

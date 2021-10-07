@@ -1,0 +1,3 @@
+ExpiresActve on
+ExpiresDefault A300
+ExpiresByType text/css A3600
