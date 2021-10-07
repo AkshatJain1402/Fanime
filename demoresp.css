@@ -31,7 +31,9 @@ body {
     float: left;
     height: 480px
 }
-
+#alert1{
+    width: 1040px;
+}
 .card-div1 {
     margin-top: 10px;
     margin-bottom: 0px;
@@ -48,7 +50,9 @@ body {
     flex-direction: column;
     float: left;
 }
-
+.card-body{
+    background-color: transparent;
+}
 .card-div {
     margin-top: 30px;
     display: flex;
@@ -151,14 +155,19 @@ body {
     background:linear-gradient(15deg, rgb(36, 216, 60) 35% ,blue );
 }
 #list{
+    display: block;
     border-style: ridge ;
     border-color: blanchedalmond;
+    border-width: 2px;
+    border-left: 0px;
     margin-left: 1%;
-    margin-top: 1px;
+    margin-top: 7px;
     margin-right: 25px;
+    width: 20%;
+    height: max-content;
 }
 .list-item{
-    margin-top: 10px;
+    margin-top: 15px;
     color: antiquewhite;}
 .list-content{
     font-size: large;
@@ -169,6 +178,11 @@ body {
 
 #navbar1{
     background:linear-gradient(45deg, rgb(15, 216, 15) 30%,blue);
+    
+}
+#search-list{
+    margin-top: 10px;
+    margin-left: 5px;
 }
 /* @media only screen and 
     (max-width: 778px){
@@ -183,6 +197,9 @@ body {
 @media only screen and (max-width: 1080px) {
     #narutoalert2 {
         width: 260px;
+    }
+    #alert1{
+        width: 550px;
     }
     .sub-div {
         display: flex;
