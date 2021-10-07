@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="demoresp.css">
     <!-- Required meta tags -->
@@ -81,10 +84,10 @@
     </header>
 
 
-  
+
     <div id="mdiv">
         <div id="list">
-            <nav class="navbar navbar-expand-lg navbar-light"   id="navbar1">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navbar1">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">List</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -96,7 +99,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
@@ -109,17 +112,20 @@
                                     </li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
 
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+
                     </div>
                 </div>
             </nav>
-            <ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search " id="search-list"
+                    aria-label="Search">
+                <a href="#" type="submit" style="margin-top: 20px;"><i class="fas fa-search"></i> </a>
+                <!-- <<button class="btn btn-outline-success" type="submit" style="margin-top: 10px;"></button>> -->
+            </form>
+            <ol style="margin-top: 35px;">
                 <li class="list-item"><a href="https://gogoanime2.org/anime/shingeki-no-kyojin-dub" target="_blank"
                         class="list-content">Attack On Titan </a></li>
                 <li class="list-item"><a href="https://gogoanime.vc/category/black-clover-tv-dub" target="_blank"
@@ -133,36 +139,37 @@
                 <li class="list-item"><a href="https://gogoanime2.org/anime/tokyo-revengers-uncensored" target="_blank"
                         class="list-content"> Tokyo Revengers</a></li>
 
-            </ul>
+            </ol>
         </div>
         <!-- <div class="alert " role="alert" id="alert-list" style="margin-top: -1px;">list</div> -->
 
         <div id="div-carc">
-  <div class="alert alert-primary" role="alert">
-        Anime ser To Get You started
-    </div>
-
+            <div class="alert alert-primary" id="alert1" role="alert">
+                Anime series To Get You started
+            </div>
             <div class="sub-div">
                 <!-- this div is for 1080  -->
                 <div>
                     <div class="card-div1">
                         <div class="alert alert-primary" role="alert" id="narutoalert2">
                             Naruto
-                        </div>
-                        <div class="card" style="width: 15rem;">
-                            <img src="naruto,gif.gif" class="card-img-top" alt="..." id="card_img">
-                            <div class="card-body">
-                                <pre><h6 class="card-title">Tale Of Naruto Uzumaki</h6></pre>
-                                <p class="card-text" style="margin-bottom: 5px;">story about a boy going from the most
-                                    hated
-                                    to the most respected and loved person <br><br><br></p>
-                                <p>no. of episodes:720</p>
 
-                                <a target="_blank" href="https://www.youtube.com/watch?v=thh7bVCgDHs"
-                                    class="btn btn-primary" id="card_button1">Trailer</a>
-                                <a target="_blank" href="https://gogoanime.vc/category/naruto-dub"
-                                    class="btn btn-primary" id="card_button1">Stream
-                                    Now</a>
+                        </div>
+                        <div style="width: 240px;">
+                            <img src="naruto,gif.gif" class="card-img-top" alt="..." id="card_img">
+                            <div class="card" style="width: 15rem;">
+                                <div class="card-body">
+                                    <pre><h6 class="card-title">Tale Of Naruto Uzumaki</h6></pre>
+                                    <p class="card-text" style="margin-bottom: 5px;">
+                                    </p>
+                                    <p>no. of episodes:720</p>
+
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=thh7bVCgDHs"
+                                        class="btn btn-primary" id="card_button1">Trailer</a>
+                                    <a target="_blank" href="https://gogoanime.vc/category/naruto-dub"
+                                        class="btn btn-primary" id="card_button1">Stream
+                                        Now</a>
+                                </div>
                             </div>
                         </div>
 
@@ -174,22 +181,25 @@
                         <div class="alert alert-primary" role="alert" id="narutoalert2">
                             Kimetsu no Yaiba
                         </div>
-                        <div class="card" style="width: 15rem;">
+                        <div style="width: 240px;">
                             <img src="demon_slayergif.gif" class="card-img-top" id="card_img2" alt="...">
-                            <div class="card-body">
-                                <pre><h6 class="card-title"> Resolve of tanjiro</h6></pre>
-                                <p class="card-text">watch the bond between a brother and sister that lead to unseen
-                                    circumscantes , unraveling the mystries of the Demon world.</p>
-                                <p style="margin-bottom: 30px;">no. of season:1 episodes 26</p>
+                            <div class="card" style="width: 15rem;">
 
-                                <a target="_blank"
-                                    href="https://www.youtube.com/watch?v=VQGCKyvzIM4&ab_channel=AniplexUSA"
-                                    class="btn btn-primary">trailer</a>
-                                <a target="_blank" href="https://gogoanime.vc/category/kimetsu-no-yaiba-dub"
-                                    class="btn btn-primary">stream
-                                    now </a>
+                                <div class="card-body">
+                                    <pre><h6 class="card-title"> Resolve of tanjiro</h6></pre>
+
+                                    <p>no. of season:1 episodes 26</p>
+
+                                    <a target="_blank"
+                                        href="https://www.youtube.com/watch?v=VQGCKyvzIM4&ab_channel=AniplexUSA"
+                                        class="btn btn-primary">trailer</a>
+                                    <a target="_blank" href="https://gogoanime.vc/category/kimetsu-no-yaiba-dub"
+                                        class="btn btn-primary">stream
+                                        now </a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div>
@@ -197,42 +207,48 @@
                         <div class="alert alert-primary" role="alert" id="narutoalert2">
                             Desu noto
                         </div>
-                        <div class="card" style="width: 15rem;">
+                        <div style="width: 240px;">
                             <img src="tokyo_revenge.gif" class="card-img-top" id="card_img" alt="...">
-                            <div class="card-body">
-                                <pre><class="card-title" id="card4-title">Battling the destiny</pre>
-                                <p class="card-text">Coming Soon </p>
-                                <p>Two season:Total 37 episodes</p>
+                            <div class="card" style="width: 15rem;">
+
+                                <div class="card-body">
+                                    <pre><class="card-title" id="card4-title">Battling the destiny</pre>
+                                    <!-- <p class="card-text">Coming Soon </p> -->
+                                    <p>Two season:Total 37 episodes</p>
 
 
-                                <a target="_blank"
-                                    href="https://www.youtube.com/watch?v=NlJZ-YgAt-c&ab_channel=CrunchyrollCollection"
-                                    class="btn btn-primary" id="card_button3">trailer</a>
-                                <a target="_blank" href="https://gogoanime2.org/anime/tokyo-revengers-uncensored"
-                                    id="card_button3" class="btn btn-primary">stream now </a>
+                                    <a target="_blank"
+                                        href="https://www.youtube.com/watch?v=NlJZ-YgAt-c&ab_channel=CrunchyrollCollection"
+                                        class="btn btn-primary" id="card_button3">trailer</a>
+                                    <a target="_blank" href="https://gogoanime2.org/anime/tokyo-revengers-uncensored"
+                                        id="card_button3" class="btn btn-primary">stream now </a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                     <div class="card-div2">
                         <div class="alert alert-primary" role="alert" id="narutoalert2">
                             Desu noto
                         </div>
-                        <div class="card" style="width: 15rem;">
+                        <div style="width:240px ;">
                             <img src="deathnote.gif" class="card-img-top" id="card_img" alt="...">
                             <div class="card-body">
-                                <pre><class="card-title" id="card4-title"> Powers of shinigami</pre>
-                                <p class="card-text">High School genius Light Yagami finds a notebook that give him
-                                    powers
-                                    to control peoples death ,making him a executioner above law </p>
-                                <p>Two season:Total 37 episodes</p>
+                                <div class="card" style="width: 15rem;">
+
+                                    <pre><class="card-title" id="card4-title"> Powers of shinigami</pre>
+                                    <p class="card-text"> </p>
+                                    <p>Two season:Total 37 episodes</p>
 
 
-                                <a target="_blank"
-                                    href="https://www.youtube.com/watch?v=NlJZ-YgAt-c&ab_channel=CrunchyrollCollection"
-                                    class="btn btn-primary" id="card_button3">trailer</a>
-                                <a target="_blank" href="https://gogoanime.vc/category/death-note-dub" id="card_button3"
-                                    class="btn btn-primary">stream now </a>
+                                    <a target="_blank"
+                                        href="https://www.youtube.com/watch?v=NlJZ-YgAt-c&ab_channel=CrunchyrollCollection"
+                                        class="btn btn-primary" id="card_button3">trailer</a>
+                                    <a target="_blank" href="https://gogoanime.vc/category/death-note-dub"
+                                        id="card_button3" class="btn btn-primary">stream now </a>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -247,39 +263,49 @@
                     <div class="alert alert-primary" role="alert" id="narutoalert2">
                         Burakku Kurōbā
                     </div>
-                    <div class="card" style="width: 15rem;">
+                    <div style="width:240px">
                         <img src="black clover.webp" class="card-img-top" id="card_img" alt="...">
-                        <div class="card-body">
-                            <pre><class="card-title" id="card4-title"> The magicless wizard</pre>
-                            <p class="card-text">/coming soon </p>
-                            <p>Total episodes:170</p>
+                        <div class="card" style="width: 15rem;">
+
+                            <div class="card-body">
+                                <pre><class="card-title" id="card4-title"> The magicless wizard</pre>
+                                <p class="card-text">/coming soon </p>
+                                <p>Total episodes:170</p>
 
 
-                            <a target="_blank" href="https://www.youtube.com/watch?v=GHCY7xrz-B0&ab_channel=ANBUSENPAI"
-                                class="btn btn-primary" id="card_button3">trailer</a>
-                            <a target="_blank" href="https://gogoanime.vc/category/black-clover-tv-dub"
-                                id="card_button3" class="btn btn-primary">stream now </a>
+                                <a target="_blank"
+                                    href="https://www.youtube.com/watch?v=GHCY7xrz-B0&ab_channel=ANBUSENPAI"
+                                    class="btn btn-primary" id="card_button3">trailer</a>
+                                <a target="_blank" href="https://gogoanime.vc/category/black-clover-tv-dub"
+                                    id="card_button3" class="btn btn-primary">stream now </a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="card-div2">
                     <div class="alert alert-primary" role="alert" id="narutoalert2">
                         shingeki no kyujin
                     </div>
-                    <div class="card" style="width: 15rem;">
+                    <div style="width: 240px;">
                         <img src="Aot.gif" class="card-img-top" id="card_img" alt="...">
-                        <div class="card-body">
-                            <pre><class="card-title" id="card4-title"> Rise Of Killer</pre>
-                            <p class="card-text"> </p>
-                            <p>Four season:Total 37 episodes</p>
+                        <div class="card" style="width: 15rem;">
+
+                            <div class="card-body">
+                                <pre><class="card-title" id="card4-title"> Rise Of Killer</pre>
+                                <p class="card-text"> </p>
+                                <p>Four season:Total 37 episodes</p>
 
 
-                            <a target="_blank" href="https://www.youtube.com/watch?v=bT9csxkth8g&ab_channel=TheMeltDown"
-                                class="btn btn-primary" id="card_button3">trailer</a>
-                            <a target="_blank" href="https://gogoanime2.org/anime/shingeki-no-kyojin-dub"
-                                id="card_button3" class="btn btn-primary">stream now </a>
+                                <a target="_blank"
+                                    href="https://www.youtube.com/watch?v=bT9csxkth8g&ab_channel=TheMeltDown"
+                                    class="btn btn-primary" id="card_button3">trailer</a>
+                                <a target="_blank" href="https://gogoanime2.org/anime/shingeki-no-kyojin-dub"
+                                    id="card_button3" class="btn btn-primary">stream now </a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
 
