@@ -152,12 +152,11 @@ body {
     width: 240px;
 }
 
-#card_button {
-    margin-top: 55px;
-}
+
 
 #card_button1 {
-    margin-top: 15px;
+    margin-top: 7px;
+    margin-bottom: -15px;
 }
 
 #card_button3 {
