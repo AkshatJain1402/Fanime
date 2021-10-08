@@ -159,18 +159,12 @@ body {
 }
 
 #card_button1 {
-    margin-top: 3px;
-    height: 38px;
+    margin-top: 2px;
+    height: 35px;
     padding-bottom: 0px;
 }
 
-#card_button3 {
-    margin-top: 5px;
-}
 
-#card4-title {
-    font-weight: 550;
-}
 
 .list-div {
     display: flex;
@@ -226,6 +220,12 @@ body {
     margin-top: 10px;
     margin-left: 5px;
 }
+  .card{
+            height: 0px;
+            width: 0px;
+            background-color: rgba(15, 15, 15, 0.733);
+            color: antiquewhite;
+        }
 
 @media only screen and (min-width: 1400px) {
     /* #narutoalert2{width: 55%;}
@@ -237,6 +237,7 @@ body {
             height: 180px;
             background-color: rgba(86, 95, 95, 0.733);
         }
+      
         #card_img{
             height: 180px;
         }
@@ -252,7 +253,7 @@ body {
         width: 260px;
     }
     #alert1 {
-        width: 790px;
+        width: 710px;
     }
     .sub-div {
         display: flex;
@@ -280,16 +281,57 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+     #mdiv{
+        display:flex;
+        flex-direction: column;
+    }
+    #list{
+width: max-content;
+    }
     #alert1 {
-        width: 310px;
+        width: 380px;
+    }
+    .card{
+        width: 10px;
+        height: 150px;
+    }
+    #card_img{
+        height: 120px;
+    }
+    #card_button1{
+        width: 10px;
+        height: 30px;
+        margin-right: 7px;
     }
     .sub-div2 {
         margin-top: -25%;
+        margin-left: 30px;
+       
     }
-    .card-div {
-        margin-top: 0%;
+    #sub-sub-div1{
+        display: flex;
+        flex-direction: column;
     }
+    .card-div1{
+        margin-left: 30px;
+         font-size: small;
+    }
+    .card-div2{
+        margin-top: -150px;
+        margin-left: 30px;
+        font-size: small;
+    }
+    .card-div5{
+        margin-top: -150px;
+        margin-left: 30px;
+         font-size: small;
+    }
+    
+    
     #narutoalert2 {
-        width: 240px;
+        width: 20px;
     }
+   
+   
+
 }
