@@ -3,8 +3,10 @@
 }
 
 body {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc);
-    background-repeat: repeat;
+    
+    /* background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc);  */
+    background-repeat: repeat; 
+   
 }
 
 .navbar {
