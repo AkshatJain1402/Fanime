@@ -124,14 +124,16 @@ body {
     display: flex;
     /* border-style: ridge; */
     width: 1200px;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #sub-sub-div1{
     width: 1200px;
     display: flex;
     flex-direction: row;
+    
 }
+
 #dub{
     display: flex;
     flex-direction: row;
@@ -241,7 +243,12 @@ body {
         .sub-div{flex-direction: column ;
         width: auto; */
 
-        
+        #sub-sub-div2{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+}
       
         #card_img{
             height: 180px;
