@@ -311,13 +311,22 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-    #header{
-        width: 420px;
+    body{
+        width: 400px !important;
+       
+        background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
     }
-    
+    #header{
+        
+        width: 400px;
+    }
+    footer{
+        width: 400px;
+    }
      #mdiv{
         display:flex;
         flex-direction: column;
+        width: 400px;
     }
     #list{
 width: max-content;
