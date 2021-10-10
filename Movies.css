@@ -1,15 +1,31 @@
-#search1 {
-    font-size: larger;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-}
+
 
 body {
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc);
     background-repeat: repeat;
     /* background-size: ; */
+}
+#search1 {
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: auto;
+    margin-top: 10px;
+    
+
+}
+.navbar {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc;)
+}
+
+#navbar-toggler {
+    background-color: rgba(49, 46, 46, 0.918);
+}
+
+#navbar-toggler-icon {
+    color: aqua;
 }
 
 #search1:hover::placeholder {
@@ -24,17 +40,6 @@ body {
     color: rgba(227, 243, 83, 0.89);
 }
 
-.navbar {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de85sza-a49b9a6b-2128-4874-a1d2-65024866810f.jpg/v1/fill/w_1192,h_670,q_70,strp/night_reflection_by_bisbiswas_de85sza-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU4NXN6YS1hNDliOWE2Yi0yMTI4LTQ4NzQtYTFkMi02NTAyNDg2NjgxMGYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.r41u3A8ad4NnaDC2PdqUtMeu9dVPDzvTN_RXwkjOHtc;)
-}
-
-#navbar-toggler {
-    background-color: rgba(49, 46, 46, 0.918);
-}
-
-#navbar-toggler-icon {
-    color: aqua;
-}
 
 #genre {
     color: beige;
@@ -46,7 +51,32 @@ body {
     background-color: transparent;
     color: beige;
 }
+#div-carc {
+    width: 75%;
+    height: 1300px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
 
+.sub-div {
+    display: flex;
+    /* flex-direction: column;  */
+}
+#sub-sub-div1{
+    display: flex;
+    flex-direction: row;
+}
+#sub-sub-div2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.sub-div2 {
+    left: 0%;
+    margin-top: 20px;
+}
 .card-div {
     margin-top: 15px;
     display: flex;
@@ -78,39 +108,8 @@ body {
     background-color: transparent;
 }
 
-.card-div {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 0px;
-    margin-right: 0px;
-}
 
-#div-carc {
-    width: 75%;
-    height: 1300px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-}
 
-.sub-div {
-    display: flex;
-    /* flex-direction: column;  */
-}
-#sub-sub-div1{
-    display: flex;
-    flex-direction: row;
-}
-#sub-sub-div2{
-    display: flex;
-    flex-direction: row;
-}
-
-.sub-div2 {
-    left: 0%;
-    margin-top: 20px;
-}
 
 #card4 {
     margin-left: 0px;
@@ -164,6 +163,14 @@ body {
     #alert{
         width: 1519px;
     }
+    #search1{
+        margin-top: 20px;
+        margin-left: 790px;
+    }
+    #search-btn{
+        margin-top: 20px;
+        
+    }
 
 }
 @media only screen and (max-width: 1080px) {
@@ -173,6 +180,9 @@ body {
     }
     #alert{
         width: 1024px;
+    }
+    #div-carc{
+        height: 650px;
     }
     .sub-div {
         display: flex;
@@ -205,7 +215,17 @@ body {
     }
     #alert{
         width: 420px;
-    }.card-div{
+    }
+  
+#div-carc{
+height: max-content;
+}
+    .sub-div{
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-div{
         width: 12rem;
         font-size: small;
     }
