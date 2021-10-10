@@ -162,6 +162,11 @@ body {
 @media only screen and (min-width: 1400px){
     #alert{
         width: 1519px;
+        height: 39px;
+        
+    }
+    #div-carc{
+        height: 650px;
     }
     #search1{
         margin-top: 20px;
