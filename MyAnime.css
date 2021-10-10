@@ -47,12 +47,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-.sub-div {
+ .sub-div {
     display: flex;
     /* border-style: ridge; */
     width: 1200px;
     flex-direction: column;
-}
+} 
 
 #sub-sub-div1{
     width: 1200px;
@@ -270,7 +270,7 @@ body {
 
 @media only screen and (max-width: 1080px) {
     .sub-div {
-        width: 00px;
+        width: 800px;
         display: flex;
         flex-direction: column;
     }
@@ -310,27 +310,35 @@ body {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    body{
-        width: 400px !important;
-       
-        background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
-    }
+ @media only screen and (max-width: 480px) {
+    
     #header{
         
         width: 400px;
     }
-    footer{
+    #alert1{
+        width:400px;
+    }
+    #div-carc{
         width: 400px;
     }
+    .sub-div{
+        width: 400px;
+    }
+    #sub-sub-div1{
+        width: 400px;
+    }
+     footer{
+        width: 400px;
+    } 
      #mdiv{
         display:flex;
         flex-direction: column;
         width: 400px;
     }
-    #list{
+     #list{
 width: max-content;
-    }
+    } 
     #alert1 {
         width: 380px;
     }
@@ -380,12 +388,9 @@ width: max-content;
     }
     
     
-    #narutoalert2 {
-        width: 20px;
-    }
-   
+    
    
    footer{
         margin-top: 810%;
     }
-}
+} 
