@@ -316,27 +316,27 @@ body {
     
     #header{
         
-        width: 400px;
+        width: 390px;
     }
     #alert1{
-        width:400px;
+        width:390px;
     }
     #div-carc{
-        width: 400px;
+        width: 390px;
     }
     .sub-div{
-        width: 400px;
+        width: 390px;
     }
     #sub-sub-div1{
-        width: 400px;
+        width: 390px;
     }
      footer{
-        width: 400px;
+        width: 390px;
     } 
      #mdiv{
         display:flex;
         flex-direction: column;
-        width: 400px;
+        width: 390px;
     }
      #list{
 width: max-content;
@@ -393,6 +393,7 @@ width: max-content;
     
    
    footer{
+       width: 380px;
         margin-top: 810%;
     }
 } 
