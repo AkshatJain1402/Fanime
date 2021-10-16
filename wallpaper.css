@@ -1,0 +1,66 @@
+ .heading{
+    font-size: 30px;
+    font-family:cursive;
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-top: 20px;
+    color: crimson;
+}
+#mdiv{
+    display: flex;
+    flex-direction: column;
+
+}
+#sub-div1{
+    display: flex;
+    flex-direction: row;
+}
+/* img:hover{
+    transition: margin-top 0.3S ease-in-out;
+ margin-top: 50px !important;  
+ 
+}  */
+#div-d{
+    width: 33%;
+    height: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    display: block;
+}
+#div-d1{
+    color: antiquewhite;
+    display: none;
+}
+#div-d:hover{
+    display:none;
+
+} 
+ .card1{
+    width: 12rem;
+    height: 13rem;
+    position: relative;
+
+} 
+
+ .card-content{
+    position: absolute;
+    top: 0;
+    left: 0;  
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    background-color: rgba(224, 217, 217, 0.295);
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-top: 90%;
+    justify-content:flex-start;
+    opacity: 0;
+} 
+ .card-content:hover{
+     transition: opacity 0.3s ease-out; 
+     
+    opacity: 1;
+} 

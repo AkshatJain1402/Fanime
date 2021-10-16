@@ -1,75 +1,105 @@
-.navbar-brand{
+::-webkit-scrollbar {
+    width: 19px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+.navbar-brand {
     color: rgb(187, 187, 187) !important;
 }
-.nav-link{
+
+.nav-link {
     color: antiquewhite;
 }
-.main-div{
+
+.main-div {
     display: flex;
     flex-direction: row;
 }
-.sub-div1{
+
+.sub-div1 {
     display: flex;
     flex-direction: row;
 }
- .dropdown{
-       margin-top: 10px;
-       margin-left:15px !important;
-   }
-.dropdown-btn{
+
+.dropdown {
+    margin-top: 10px;
+    margin-left: 15px !important;
+}
+
+.dropdown-btn {
     background-color: black !important;
-    
 }
-.dropdown-btn:hover{
-    transition: background-color 0.4s ease-out  !important;
+
+.ul-div {
+    height: 8rem;
+    background-color: aqua !important;
+    overflow-y: scroll;
+}
+
+.dropdown-btn:hover {
+    transition: background-color 0.4s ease-out !important;
     background-color: aqua !important;
 }
-.download-btn{
+
+.download-btn {
     outline: none;
     border: none;
     margin-left: 2px;
     margin-top: 2px;
     background-color: rgba(248, 240, 229, 0.904);
-}.download-btn:hover{
+}
+
+.download-btn:hover {
+    transition: background-color 0.4s ease-out;
     background-color: rgba(154, 247, 166, 0.801);
 }
 
-   
-   @media only screen  and (min-width:1440px)
-   {
-.btn{
-    width: 12rem !important;
+@media only screen and (min-width:1440px) {
+    .btn {
+        width: 12rem !important;
+    }
+    .ul-div {
+        height: 6rem;
+        background-color: aqua !important;
+        overflow-y: scroll;
+    }
 }
-   }
-@media only screen  and (max-width:420px)
 
-{ 
-    .navbar{
+@media only screen and (max-width:420px) {
+    .navbar {
         width: 410px;
     }
-    body{
+    body {
         background-color: rgb(48, 49, 42) !important;
         color: bisque;
     }
-.sub-div1{
-    margin-top: 10px;
-}
-    .main-div{
-      width:410px !important;
-      display: flex;
-      flex-direction: column;
-
-
-     
+    .sub-div1 {
+        margin-top: 10px;
     }
-   .dropdown{
-       margin-top: 10px;
-       margin-left:10px ;
-   }
-   .btn{
-       font-size:10px !important;
-       width:7rem;
-       padding-left: 0px;
-   }
- 
+    .main-div {
+        width: 410px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .btn {
+        font-size: 10px !important;
+        width: 7rem;
+        padding-left: 0px;
+    }
 }

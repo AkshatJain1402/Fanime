@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="wallpaper.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -11,14 +13,89 @@
     <title>Aniplex</title>
   </head>
   <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+   <img style="width: 9rem; height: 3rem; " src="Logo-3-[remix] (1).gif">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="movies.html">movies</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex input-group w-auto">
+        <input
+          type="search"
+          class="form-control"
+          placeholder="Type query"
+          aria-label="Search"
+        />
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+          data-mdb-ripple-color="dark"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
 
+
+<div class="heading">HD Wallpapers</div>
+<p style="margin-left: 38%; font-size: larger; margin-top: 9px;">Wallpaper For Your Smart phones Only</p>
+
+<div id="mdiv">
+  <div id="sub-div1"> 
+    <img style="width: 400px ; height: 400px; margin-left: 40px; margin-top: 20px; border-radius: 10px ;" src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg" alt="...">
+    <img style="width: 400px ; height: 400px; margin-left: 40px; margin-top: 20px; border-radius: 10px ;" src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg" alt="...">
+    <img style="width: 400px ; height: 400px; margin-left: 40px; margin-top: 20px; border-radius: 10px ;" src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg" alt="...">
+  </div>
+</div>
+<div class="card1">
+<div class="card-img1">    
+</div>
+  <video>
+    <source src="Logo-3-[remix].mp4">
+  </video>
+  <div class="card-content">
+    <h5>Naruto</h5>
+    <a href="" style="margin-left: 30px; margin-bottom: 2px; margin-right:5px ;"><i  class="fas fa-play-circle" ></i></a>
+    
+    <i class="far fa-heart" onclick="likeincrement()" style="color: rgb(241, 8, 8); curso;"></i>
+    <h8 id="incrementtext">0</h8>
+
+  </div>
+</div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-    -->
+     <script>
+function likeincrement(){
+  var element = document.getElementById('incrementtext');
+  var value=element.innerHTML;
+  ++value;
+  console.log(value)
+  document.getElementById('incrementtext').innerHTML=value
+}
+     </script> 
   </body>
 </html>
