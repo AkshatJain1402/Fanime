@@ -21,9 +21,7 @@
     color: rgb(187, 187, 187) !important;
 }
 
-.nav-link {
-    color: antiquewhite;
-}
+
 
 #navbar-item:hover {
     transition: background-color .7s ease-in !important;
@@ -34,7 +32,10 @@
     border-color: rgb(179, 163, 163);
     border-bottom: 0px;
 }
-
+.nav-link{
+    color: #86c232 !important;
+    font-family: cursive;
+}
 .main-div {
     display: flex;
     flex-direction: row;
@@ -56,13 +57,13 @@
 
 .ul-div {
     height: 8rem;
-    background-color: aqua !important;
+    background-color: rgb(0, 0, 0) !important;
     overflow-y: scroll;
 }
 
 .dropdown-btn:hover {
     transition: background-color 0.4s ease-out !important;
-    background-color: aqua !important;
+    background-color: #86c232!important;
 }
 
 .download-btn {
@@ -84,7 +85,7 @@
     }
     .ul-div {
         height: 6rem;
-        background-color: aqua !important;
+        background-color: rgb(2, 2, 2) !important;
         overflow-y: scroll;
     }
 }
