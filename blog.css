@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(27, 27, 27) !important;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+background-color: #000000cc;
+height: 80px;}
+header{
+    height: 40px;
+    
+    width: 100%;
+    margin-bottom: 100px !important;
+}
+header h2{
+    color: #86c262;
+    font-weight:bolder ;
+}
+header ul li{
+    
+    padding-top: 25PX;
+}
+header ul li a{
+    margin-left: 8px;
+    font-family: cursive;
+    font-size:19px ;
+    font-weight:900;
+    letter-spacing: 1px;
+
+    color: #86c262;
+    
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 50px;
+}
+.card-img-top{
+    width: 17rem !important;
+}
+.card-body{
+width: 17rem !important;
+background-color: rgba(255, 166, 0, 0.534);
+color: black;
+}
+.card{
+width: 17rem !important;
+background-color: transparent !important;
+
+
+}
+
+.card-text{
+    font-size: smaller;
+}

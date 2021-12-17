@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
- <link rel="stylesheet" href="Movies.css">
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Movies.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid" style="color: beige;">
             <h3 style="margin-right: 10px;">movies</h3>
             <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,32 +25,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item" id="navbar-item">
-                        <a class="nav-link active"aria-current="page"
-                            href="Aniplex.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="Aniplex.html">Home</a>
                     </li>
                     <li class="nav-item" id="navbar-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="Downloads.html">Download</a>
+                        <a class="nav-link active" aria-current="page" href="Downloads.html">Download</a>
                     </li>
                     <li class="nav-item" id="navbar-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="wallpaper.html">Wallpaper</a>
+                        <a class="nav-link active" aria-current="page" href="wallpaper.html">Wallpaper</a>
                     </li>
-                    <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
-                    <li style="background-image: url();" class="nav-item dropdown" id="navbar-item">
+                    <li class="nav-item dropdown" id="navbar-item">
                         <a id="genre" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             genre
                         </a>
-                        <ul style="background-color: transparent; " class="dropdown-menu"
+                        <ul style="height: 150px; overflow-y:scroll ; background-color: black;" class="dropdown-menu"
                             aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#for-action-btn" style="color: bisque;"> Action</a></li>
-                            <li><a class="dropdown-item" style="color: bisque;" href="#">Adventure</a></li>
-                            <li><a class="dropdown-item" style="color: bisque;" href="#">romantic</a></li>
-                            <li><a class="dropdown-item" style="color: bisque;" href="#">suspense</a></li>
-                            <li><a class="dropdown-item" style="color: bisque;" href="#">suspense</a></li>
+                            <li><a class="dropdown-item  genre-list" href="#for-action-btn"> Action</a></li>
+                            <li><a class="dropdown-item  genre-list" href="#">Adventure</a></li>
+                            <li><a class="dropdown-item  genre-list" href="#">romantic</a></li>
+                            <li><a class="dropdown-item  genre-list" href="#">suspense</a></li>
+                            <li><a class="dropdown-item genre-list" href="#">suspense</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -64,118 +58,119 @@
     </nav>
 
     <!-- this for romance section -->
-    <div id="div-carc" style="margin-top:90px">
-        <div class="alert alert-primary" role="alert" id="genre-alert"
-           >
+    <div>
+        <div class="alert alert-primary" role="alert" id="genre-alert">
             Romance
         </div>
-        <div class="sub-div">
-            <!-- this div is for 1080  -->
-            <div id="sub-sub-div1">
-                <div class="card-div1">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        kimi no nava
-                    </div>
-                    <div> <img id="card-img1" src="your name.gif" alt="...">
-                    </div>
-                    <div class="card">
-                        <div class="card-body" id="card-body">
-                            <pre><h6 class="card-title">Your Name</h6></pre>
-                            <p class="card-text" style="margin-bottom: 5px;">Coming soon </p>
-                            <p>duration: 1:48:36</p>
 
-                            <a target="_blank" href="https://www.youtube.com/watch?v=s0wTdCQoc2k&ab_channel=AlltheAnime"
-                                id="card-button1" class="btn btn-primary">Trailer</a>
-                            <a target="_blank" href="https://gogoanime2.org/anime/kimi-no-na-wa-dub"
-                                class="btn btn-primary" id="card-button1">Stream
-                                Now</a>
-                        </div>
-                    </div>
+        <section class="section-cards1 ">
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);">mugen Train </h7>
+                    <section class="box-front">
 
+                        <img src="demon slayer blog.jpg" style="width: 100%; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, temporibus
+                                recusandae </li>
 
+                        </ul>
+                    </section>
 
                 </div>
-                <div class="card-div2">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        Kimetsu no Yaiba
-                    </div>
-                    <div><img src="demonslayer.png" class="card-img-top" id="card-img" alt="..."></div>
-                    <div class="card">
-
-                        <div class="card-body">
-                            <pre><h6 class="card-title"> Soon</h6></pre>
-                            <p class="card-text">Coming Soon.</p>
-                            <p style="margin-bottom: 0px;"></p>
-
-                            <a target="_blank" href="https://www.youtube.com/watch?v=VQGCKyvzIM4&ab_channel=AniplexUSA"
-                                class="btn btn-primary" id="card-button1">trailer</a>
-                            <a target="_blank" href="https://gogoanime.vc/category/kimetsu-no-yaiba-dub"
-                                class="btn btn-primary" id="card-button1">stream
-                                now </a>
-                        </div>
-                    </div>
-                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
             </div>
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);">Kimi no yava </h7>
+                    <section class="box-front">
 
+                        <img src="https://wallpaperaccess.com/full/1097489.jpg" style="width: 100%; height: 100%; "
+                            alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
-            <div id="sub-sub-div2">
-                <div class="card-div2">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        Weathering With You
-                    </div>
-                    <div><img src="https://wallpaperaccess.com/full/1097489.jpg" class="card-img-top" id="card-img3"
-                            alt="..."></div>
-                    <div class="card">
-
-                        <div class="card-body">
-                            <pre><class="card-title" id="card4-title">Coming Soon</pre>
-                            <p class="card-text">Coming Soon</p>
-
-
-                            <a target="_blank" href="https://www.youtube.com/watch?v=Q6iK6DjV_iE&ab_channel=GKIDSFilms"
-                                class="btn btn-primary" id="card-button1">trailer</a>
-                            <a target="_blank" href="https://gogoanime.vc/category/tenki-no-ko-dub" id="card-button1"
-                                class="btn btn-primary">stream now </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-div2">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        kimi no yama
-                    </div>
-                    <div style="height: 150px;"><img
-                            src="https://i.pinimg.com/474x/97/9a/d7/979ad7740f305207c72f735cc2035163.jpg" id="card-img1"
-                            alt="..."></div>
-                    <div class="card">
-
-                        <div class="card-body">
-                            <p>
-                                <class="card-title" id="card4-title">
-                            </p>
-                            <p class="card-text" style="font-size: small;">devastatingly beautiful-a-gut-punch of a
+                        <ul>
+                            <li>devastatingly beautiful-a-gut-punch of a
                                 romantic drama portraying two opposites that will leave you broken and have ou crying
-                                your eyes out by its end</p>
-
-
-                            <a target="_blank"
-                                href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
-                                class="btn btn-primary" id="card_button3">trailer</a>
-                            <a target="_blank" class="btn btn-primary"
-                                href="https://gogoanime.vc/kimi-no-suizou-wo-tabetai-dub-episode-1"
-                                id="card_button3">stream now </a>
-                        </div>
-                    </div>
+                                your eyes out by its end</li>
+                        </ul>
+                    </section>
                 </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
             </div>
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);"> of power 1</h7>
+                    <section class="box-front">
+                        <img src="demon slayer blog.jpg" style="width: 100% ; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minus! Lorem ipsum
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Nulla, asperiores?</li>
 
+                        </ul>
+                    </section>
+                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
+            </div>
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);"> of power 1</h7>
+                    <section class="box-front">
+                        <img src="demon slayer blog.jpg" style="width: 100% ; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minus! Lorem ipsum
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Nulla, asperiores?</li>
 
+                        </ul>
+                    </section>
+                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
+            </div>
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);"> of power 1</h7>
+                    <section class="box-front">
+                        <img src="demon slayer blog.jpg" style="width: 100% ; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minus! Lorem ipsum
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Nulla, asperiores?</li>
 
-        </div>
-
+                        </ul>
+                    </section>
+                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
+            </div>
+          
+        </section>
 
 
 
@@ -188,229 +183,232 @@
         <div class="alert" id="genre-alert" role="alert" id="alert">
             Action genre
         </div>
-        <div class="sub-div" style="margin-top: 30px;">
+        <section class="section-cards1 ">
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);"> of power </h7>
+                    <section class="box-front">
+                        <img src="one punch-man-blog.jpg" style="height: 100%; width: 100%;" alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
-            <div id="sub-sub-div1">
-                <div class="card-div1" id="mugen_card">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        MUGEN RESSHA-HEN
-                    </div>
-                    <div><img src="mugen train.gif" alt="..." id="card-img1"></div>
-                    <div class="card">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minus! Lorem ipsum
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Nulla, asperiores?</li>
 
-                        <div class="card-body" id="card-body">
-                            <pre><h6 class="card-title">Demon Slayer :mUGEN Train</h6></pre>
-                            <p>duration: 1:48:36</p>
-
-                            <a target="_blank" href="https://www.youtube.com/watch?v=ATJYac_dORw&ab_channel=AniplexUSA"
-                                id="card-button1" class="btn btn-primary">Trailer</a>
-                            <a target="_blank"
-                                href="https://gogoanime.vc/category/kimetsu-no-yaiba-movie-mugen-ressha-hen-dub"
-                                class="btn btn-primary" id="card-button1">Stream
-                                Now</a>
-                        </div>
-                    </div>
-
-
-
-
+                        </ul>
+                    </section>
                 </div>
-                <div class="card-div2">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        Tournament Of Power
-                    </div>
-                    <div><img
-                            src="https://image.winudf.com/v2/image/Y29tLkdva3UudnMuSmlyZW4uV2FsbHBhcGVyMi5kcmFnb25iYWxsei5kcmFnb25iYWxsLmRiei5zc2cuc3NqMy5zc2o0LnNzajUuaW5zdXJhbmNlLlByb3BlcnR5LkhEX3NjcmVlbl8wXzE1MTY1OTk1NjJfMDI0/screen-0.jpg?fakeurl=1&type=.jpg"
-                            class="card-img-top" id="card-img1" alt="..."></div>
-                    <div class="card">
-
-                        <div class="card-body">
-                            <pre><h6 class="card-title"> Soon</h6></pre>
-                            <p class="card-text">Coming Soon.</p>
-
-                            <a target="_blank" href="https://www.youtube.com/watch?v=VQGCKyvzIM4&ab_channel=AniplexUSA"
-                                class="btn btn-primary" id="card-button1">trailer</a>
-                            <a target="_blank" href="https://gogoanime.vc/category/kimetsu-no-yaiba-dub"
-                                class="btn btn-primary" id="card-button1">stream
-                                now </a>
-                        </div>
-                    </div>
-                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
             </div>
-            <div id="sub-sub-div2">
-                <div class="card-div2">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        Berserk Golden Age Arc I
-                    </div>
-                    <div><img
-                            src="https://occ-0-1068-1723.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcLwMBnr2qdive8XWvsrPMZxxBYVCX70jiBgdiC11MY4RjODn6S2y_NGnttXK_SNFJxosG_i7bOmIYO-z0Q2wv22oRxx.jpg?r=c7b"
-                            class="card-img-top" id="card-img1
-                            " alt="..."></div>
-                    <div class="card">
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);">of power </h7>
+                    <section class="box-front">
+                        <img src="Mob-Psycho-100-Season-3-release-date.jpg" style="height: 100% ; width: 100%;"
+                            alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
-                        <div class="card-body">
-                            <pre><class="card-title" id="card4-title">Coming Soon</pre>
-                            <p class="card-text">Coming Soon</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minus! Lorem ipsum
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Nulla, asperiores?</li>
 
+                        </ul>
+                    </section>
 
-                            <a target="_blank" href="https://www.youtube.com/watch?v=FnbwFiZf9vg&ab_channel=vizmedia"
-                                class="btn btn-primary" id="card-button1">trailer</a>
-                            <a target="_blank"
-                                href="https://gogoanime.vc/category/berserk-ougon-jidai-hen-i-haou-no-tamago-dub"
-                                class="btn btn-primary" id="card-button1">stream now </a>
-                        </div>
-                    </div>
                 </div>
-                <div class="card-div2">
-                    <div class="alert alert-primary" role="alert" id="alert2">
-                        kimi no yama
-                    </div>
-                    <div> <img src="https://i.pinimg.com/474x/97/9a/d7/979ad7740f305207c72f735cc2035163.jpg"
-                            class="card-img-top" id="card_img8" alt="..."></div>
-                    <div class="card">
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
+            </div>
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);">mugen Train </h7>
+                    <section class="box-front">
 
-                        <div class="card-body">
-                            <pre><class="card-title" id="card4-title"> COming Soon</pre>
-                            <p class="card-text">Coming Soon</p>
+                        <img src="demon slayer blog.jpg" style="width: 100%; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, temporibus
+                                recusandae
+                            </li>
 
-                            <a target="_blank"
-                                href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
-                                class="btn btn-primary" id="card-button1">trailer</a>
-                            <a target="_blank" class="btn btn-primary"
-                                href="https://gogoanime.vc/kimi-no-suizou-wo-tabetai-dub-episode-1"
-                                id="card-button1">stream
-                                now </a>
-                        </div>
-                    </div>
+                        </ul>
+                    </section>
                 </div>
-
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
             </div>
 
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);">Kimi no yava </h7>
+                    <section class="box-front">
 
-        </div>
+                        <img src="kyojuro_rengoku.jpg" style="width: 100%; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>devastatingly beautiful-a-gut-punch of a
+                                romantic drama portraying two opposites that will leave you broken and have ou crying
+                                your eyes out by its end</li>
 
+                        </ul>
+                    </section>
+                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
+            </div>
+            <div class="card1">
+                <div class="container">
+                    <h7 style="color: rgb(207, 24, 195);"> of power </h7>
+                    <section class="box-front">
+                        <img src="naruto.jpg" style="width: 100% ; height: 100%; " alt="...">
+                        <p> For Info come to me </p>
+                    </section>
+                    <section class="box-back">
 
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minus! Lorem ipsum
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Nulla, asperiores?</li>
 
+                        </ul>
+                    </section>
 
-
-
-
-
+                </div>
+                <a target="_blank" href="https://www.youtube.com/results?search_query=can+i+eat+your+pancreas+trailer+"
+                    class="btn btn-primary" id="card_button3">trailer</a>
+            </div>
+        </section>
 
     </div>
 
 
-    <footer class=" bg-dark text-center text-white" style="margin-top: 300px; " >
-                    <section class="">
-                        <!-- Footer -->
-                        <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
-                            <!-- Grid container -->
-                            <div class="container p-4 pb-0">
-
-                                <!-- Section: CTA -->
-                                <section class="footer-content" id="aboutme">
-                                    <p>Hey there,Welcome<br>My Name's Akshat Jain and i am currently pursuing B.tech..
-                                        this
-                                        website is under construction</p>
 
 
-                                    <p class="d-flex justify-content-center align-items-center">
+    <footer class=" bg-dark text-center text-white" style="margin-top: 300px; ">
+        <section class="">
 
-                                    <div class="dropdown">
-                                        <button class="btn btn-primary dropdown-toggle" type="button"
-                                            data-mdb-toggle="dropdown" aria-expanded="false">
-                                            Join My community
-                                        </button>
-                                        <div class="dropdown-menu" style="width: 320px">
-                                            <form class="px-4 py-3">
-                                                <!-- Email input -->
-                                                <div class="form-outline mb-4">
-                                                    <input type="email" id="form2Example1" class="form-control" />
-                                                    <label class="form-label" for="form2Example1">Email address</label>
-                                                </div>
+            <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
 
-                                                <!-- Password input -->
-                                                <div class="form-outline mb-4">
-                                                    <input type="password" id="form2Example2" class="form-control" />
-                                                    <label class="form-label" for="form2Example2">Password</label>
-                                                </div>
+                <div class="container p-4 pb-0">
 
-                                                <!-- 2 column grid layout for inline styling -->
-                                                <div class="row mb-4">
-                                                    <div class="col d-flex justify-content-center">
-                                                        <!-- Checkbox -->
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value=""
-                                                                id="form2Example3" checked />
-                                                            <label class="form-check-label" for="form2Example3">
-                                                                Remember me
-                                                            </label>
-                                                        </div>
-                                                    </div>
 
-                                                    <div class="col">
-                                                        <!-- Simple link -->
-                                                        <a href="#!">Forgot password?</a>
-                                                    </div>
-                                                </div>
+                    <section class="footer-content" id="aboutme">
+                        <p>Hey there,Welcome<br>My Name's Akshat Jain and i am currently pursuing B.tech..
+                            this
+                            website is under construction</p>
 
-                                                <!-- Submit button -->
-                                                <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                                            </form>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">New around here? Sign up</a>
-                                            <a class="dropdown-item" href="#">Forgot password?</a>
+
+                        <p class="d-flex justify-content-center align-items-center">
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-mdb-toggle="dropdown"
+                                aria-expanded="false">
+                                Join My community
+                            </button>
+                            <div class="dropdown-menu" style="width: 320px">
+                                <form class="px-4 py-3">
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="email" id="form2Example1" class="form-control" />
+                                        <label class="form-label" for="form2Example1">Email address</label>
+                                    </div>
+
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="form2Example2" class="form-control" />
+                                        <label class="form-label" for="form2Example2">Password</label>
+                                    </div>
+
+                                    <!-- 2 column grid layout for inline styling -->
+                                    <div class="row mb-4">
+                                        <div class="col d-flex justify-content-center">
+                                            <!-- Checkbox -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="form2Example3" checked />
+                                                <label class="form-check-label" for="form2Example3">
+                                                    Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <!-- Simple link -->
+                                            <a href="#!">Forgot password?</a>
                                         </div>
                                     </div>
 
-                                    </p>
-                                </section>
-                                <!-- Section: CTA -->
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                </form>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">New around here? Sign up</a>
+                                <a class="dropdown-item" href="#">Forgot password?</a>
                             </div>
-                            <!-- Grid container -->
+                        </div>
 
-
-                        </footer>
-                        <!-- Footer -->
+                        </p>
                     </section>
+                    <!-- Section: CTA -->
+                </div>
+                <!-- Grid container -->
+
+
+            </footer>
+            <!-- Footer -->
+        </section>
 
 
 
-                    <!-- Grid container -->
-                    <div class="container p-4 pb-0">
-                        <!-- Section: Social media -->
-                        <section class="mb-4">
-                            Get connected with us on social media:
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                Get connected with us on social media:
 
-                            <!-- Twitter -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-twitter"></i></a>
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
 
 
-                            <!-- Instagram -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-instagram"></i></a>
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
 
-                            <!-- Linkedin -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-linkedin-in"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
 
-                            <!-- Github -->
-                            <a class="btn btn-outline-light btn-floating m-1" target="_blank"
-                                href="https://github.com/AkshatJain1402" role="button"><i class="fab fa-github"></i></a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" target="_blank"
+                    href="https://github.com/AkshatJain1402" role="button"><i class="fab fa-github"></i></a>
 
-                            © 2021 Copyright:
-                            <a class="text-white" href="#">Akshat Jain</a>
+                © 2021 Copyright:
+                <a class="text-white" href="#">Akshat Jain</a>
 
-                        </section>
-                        <!-- Section: Social media -->
-                    </div>
+            </section>
+            <!-- Section: Social media -->
+        </div>
 
-                  
-                </footer>
-                
+
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

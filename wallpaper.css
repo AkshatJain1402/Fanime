@@ -24,12 +24,14 @@ body{
      display: grid;
      grid-template-columns:30% 30% 40%;
  }
+#sub-div2{
+    border: 2px solid white;
 
-  .image:hover{
-    transition: margin-top 0.3S ease-in-out;
- margin-top: 50px !important;  
+}
+.image2{
+    width: 350px ; height: 350px; margin-left: 40px; margin-top: 20px; border-radius: 10px ;
+}
  
-}  
 
  #div-d {
      width: 33%;
